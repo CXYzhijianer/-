@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/input.css"/>
+<link rel="stylesheet" type="text/css" href="css/Typography.css"/>
+<link rel="stylesheet" type="text/css" href="css/response.css"/>
+
+<link rel="icon" href="https://static.jianshukeji.com/highcharts/images/favicon.ico">
+
+</head>
+<body>
+<!--header-->
+    <header>
+        <div class="nav_left"></div>
+    </header>
+    <!--section-->
+   <section>
+<!--//主题内容左边导航-->
+        <div class="section_left">
+            <ul>
+                <a href="">
+                     <li>
+                        <i class="iconfont icon-dashbord"></i>
+                        <a href="index.html"> <span>Dashborad</span></a>
+                     </li>
+                </a>
+                <a href="inbox.html">
+                    <li>
+                        <i class="iconfont icon-inbox" id="icon-inbox"></i>
+                        <span>inbox</span>
+                    </li>
+                </a>
+                <li>
+                    <i class="iconfont icon-gallery"></i>
+                    <a href="Gallery.html"><span>Gallery</span></a>
+                </li>
+                <li>
+                    <i class="iconfont icon-charts"></i>
+                    <a href="charts.html"><span>charts</span></a>
+                </li>
+                <li class="short_code lis" id="short_code">
+
+                    <i class="iconfont icon-clients"></i>
+                    <a href=""><span>shor&nbsp;tcode</span></a>
+                    <i class="iconfont icon-arrow-right1" id="shortCode"></i>
+                    <ul class="uls" id="ul1">
+                        <li><a href="">icon</a></li>
+                        <li><a href="typography.html">Typography</a></li>
+                        <li><a href="">Fag</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="iconfont icon-baocuoshj-icon-repo"></i>
+                    <span><a href="">error&nbsp;page</a></span>
+                </li>
+                <li class="UI_compentent lis" id="UI_compentent">
+                    <i class="iconfont icon-shejitu"></i>
+                    <a href=""><span>UI&nbsp;compentents</span></a>
+                    <i class="iconfont icon-arrow-right1" id="UiId"></i>
+
+                    <ul class="uls" id="ul2">
+                        <li><a href="">buttons</a></li>
+                        <li><a href="">Griad</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="iconfont icon-table_string"></i>
+                    <a href=""><span>tables</span></a>
+                </li>
+                <li>
+                    <i class="iconfont icon-mapson"></i>
+                    <a href=""><span>Maps</span></a>
+                </li>
+                <li class="page lis" id="page">
+                    <i class="iconfont icon-OtherPages"></i>
+                    <a href=""><span>Pages</span></a>
+                    <i class="iconfont icon-arrow-right1" id="pageId"></i>
+                    <ul class="uls" id="ul3">
+                        <li><a href="">clandeds</a></li>
+                        <li><a href="">sign In</a></li>
+                        <li><a href="">sign Up</a></li>
+                    </ul>
+                </li>
+                <li class="forms lis" id="forms">
+                    <i class="iconfont icon-page1copy"></i>
+                    <a href=""><span>forms</span></a>
+                    <i class="iconfont icon-arrow-right1" id="icon-arrow-right1"></i>
+                    <ul class="uls" id="ul4">
+                        <li><a href="input.html">input</a></li>
+                        <li><a href="">uldation</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+<!--//主题版块右边内容-->
+<!--<div class="one">-->
+        <div class="section_right">
+            <!--//菜单部分-->
+            <div class="menuBox">
+                <div class="menu_one">
+                    <a href="index.html">POOLED</a>
+                </div>
+                <div class="menu_two">
+                    <form action="">
+                        <input type="text" value="search"><input type="submit" value="">
+
+                    </form>
+                </div>
+                <div class="menu_three">
+                    <a href="javascript:;"><i class="iconfont icon-youxiang"></i></a>
+                    <a href="javascript:;"><i class="iconfont icon-xiaoxi"></i></a>
+                    <a href="javascript:;"><i class="iconfont icon-erjidaohangkanban"></i></a>
+                </div>
+                <div class="menu_four">
+                    <ul>
+                        <li>
+                            <div class="imgBox"></div>
+                            <div class="cont">
+                                <span>Maloure</span>
+                                <span><em>Adminstter</em></span>
+                            </div>
+                            <div class="menu_cont" id="menu_cont">
+                                <i class="iconfont icon-arrow"></i>
+                                <ul id="personal_menu">
+                                    <li><span>setting</span><i class="iconfont icon-she-zhi" id="i1"></i></li>
+                                    <li><span>profile</span><i class="iconfont icon-yonghu1" id="i2"></i></li>
+                                    <li><span>logout</span><i class="iconfont icon-inbox" id="i3"></i></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--home-->
+            <div class="home">
+                <span>home</span><i class="iconfont icon-arrow-right1"></i><span id="focus">forms<i class="iconfont icon-arrow-right1"></i> input</span>
+            </div>
+ <!--................................input(main)...............................-->
+           <div class="inputBox">
+               <div class="BasicFormBox">
+                   <h4>Basic Form</h4>
+                   <form action="">
+                       <laber>Email address</laber> <br>
+                       <input type="text" value="Email address">
+                       <laber>Password</laber> <br>
+                       <input type="password" value="Password">
+                       <input type="checkbox">Check me out
+                   </form>
+                   <p>SUBMIT</p>
+               </div>
+               <div class="HorizontalFormBox">
+                   <h4>Horizontal form</h4>
+                   <form action="">
+                       <laber>Email</laber>
+                       <input type="text" value="Email address"><br>
+                       <laber>Password</laber>
+                       <input type="password" value="Password"><br>
+                       <input type="checkbox"><laber>Remember me</laber>
+                   </form>
+                   <p>SIGN IN</p>
+               </div>
+
+           </div>
+            <div class="footerBox">
+                <p>copyRigth@2016Comfewpn&nbsp;name&nbsp;All&nbsp;ressrgr&nbsp;csfreg&nbsp;<span>模板之家</span>&nbsp;-comnfg&nbsp;femg<span>网页模版</span></p>
+            </div>
+        </div>
+<!--</div>-->
+   </section>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript" src="js/echarts.min.js" ></script>
+
+<!--<script src="https://img.hcharts.cn/highcharts/highcharts.js"></script>-->
+
+
+<!--<script>-->
+    <!--var chart = Highcharts.chart('area_chart', {-->
+        <!--chart: {-->
+            <!--type: 'area'-->
+        <!--},-->
+        <!--title: {-->
+            <!--text: ''-->
+        <!--},-->
+        <!--legend: {-->
+            <!--layout: 'vertical',-->
+            <!--align: 'left',-->
+            <!--verticalAlign: 'top',-->
+            <!--x: 150,-->
+            <!--y: 100,-->
+            <!--floating: true,-->
+            <!--borderWidth: 1,-->
+            <!--backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'-->
+        <!--},-->
+        <!--xAxis: {-->
+            <!--categories: [-->
+                <!--'2014-02','2014-05','2014-11','2015-02','2015-05','2015-05','2015-05',"2015-05"-->
+            <!--],-->
+            <!--plotBands: [{ // 标识出周末-->
+                <!--from: 4.5,-->
+                <!--to: 6.5,-->
+                <!--color: 'rgba(68, 170, 213, .2)'-->
+            <!--}]-->
+        <!--},-->
+        <!--yAxis: {-->
+            <!--title: {-->
+                <!--text: ''-->
+            <!--}-->
+        <!--},-->
+        <!--tooltip: {-->
+            <!--shared: true,-->
+            <!--valueSuffix: ''-->
+        <!--},-->
+        <!--plotOptions: {-->
+            <!--areaspline: {-->
+                <!--fillOpacity: 0.5-->
+            <!--}-->
+        <!--},-->
+        <!--series: [{-->
+            <!--name: '2014 Q1',-->
+            <!--data: [3, 4, 3, 5, 4, 10, 12]-->
+        <!--}, {-->
+            <!--name: 'All Visitors',-->
+            <!--data: [1, 3, 4, 3, 3, 5, 4]-->
+        <!--},{-->
+            <!--name: 'Returning Visitors',-->
+            <!--data: [1, 3, 4, 3, 3, 5, 4]-->
+        <!--},{-->
+            <!--name: 'Unique Visitors',-->
+            <!--data: [1, 3, 4, 3, 3, 5, 4]-->
+        <!--}-->
+        <!--]-->
+    <!--});-->
+<!--</script>-->
+
+
+
+
+
+<!-- 引入 echarts.js -->
+<script type="text/javascript">
+
+    $(function () {
+        // 基于准备好的dom，初始化echarts实例
+
+        var myChart = echarts.init(document.getElementById('area_chart'));
+
+        // 指定图表的配置项和数据
+        option = {
+            color: ['#c4e321', '#6bcccc', '#f99e9a'],//区域的背景色
+            backgroundColor:"#fff",//表格背景色
+            title : {
+                text: 'sfedgrfdgetr'//标题
+
+            },
+
+            tooltip : {//提示信息
+                axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                    type : 'none'        // 默认为直线，可选为：'line' | 'shadow'
+                },
+                trigger: 'axis',
+                textStyle: {
+
+                    fontSize: 12,
+                    color: ['#c4e321', '#6bcccc', '#f99e9a'],
+                    textShadowColor:"#fff",
+                },
+                backgroundColor: 'rgba(245, 245, 245, 0.8)',
+                padding:10,
+                extraCssText: 'box-shadow: 0 0 3px rgba(0, 0, 0, 0.3)'
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true,
+            },
+            calculable : true,
+            xAxis : [
+
+                {
+                    type : 'category',
+                    boundaryGap : false,
+                    data : ['2014-04','2014-06', '2014-08', '2014-10', '2014-12', '2015-03', '2015-05', '2015-07','2015-09', '2015-11', '2016-01','2016-03', '2016-05'],
+                    axisTick: {
+                        show: false
+                    },
+                    axisLine: {
+                        lineStyle:{//设置坐标轴的线的样式
+                            color:'#efefef',
+                            width:'1',
+                            normal: {
+                                opacity: 1
+                            }
+                        },
+                    },
+                    axisLabel:{ // x轴的字体样式
+                        interval:0,
+                        textStyle:{
+                            color:'#6c6c6c',
+                            fontSize:'12'
+                        }
+                    },
+                },
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    min:0,
+                    max:20000,
+                    interval:5000,
+                    axisTick: {
+                        show: false
+                    },
+                    boundaryGap:false,
+                    splitNumber:4,
+                    axisTick:{//坐标轴的刻度
+                        show:false,
+                        lineStyle:{
+                            color:'#fff',
+                        }
+                    },
+                    splitLine:{//坐标轴在表格中的分割线
+                        show:false,
+                        linStyle:{
+                            color:'#ffffff'
+                        }
+                    },
+                    axisLine: {
+                        lineStyle:{//设置坐标轴的线的样式
+                            color:'#efefef',
+                            width:'1',
+                            normal: {
+                                opacity: 1
+                            }
+                        },
+                    },
+                    axisLabel:{ // x轴的字体样式
+                        interval:0,
+                        textStyle:{
+                            color:'#6c6c6c',
+                            fontSize:'12'
+                        }
+                    },
+                },
+
+            ],
+            series : [
+                {
+                    textStyle: {
+                        fontSize: 16,
+                        color: 'red'
+                    },
+                    name:'All Visitors',
+                    type:'line',
+                    smooth:true,
+                    itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                    data: [950.6, 5004.4, 2009.9, 7001.5, 1006.4, 1209.2, 1404.0, 1706.0, 12999.2, 6144.0, 5176.0, 135.6, 3148.5]
+                },
+                {
+                    textStyle: {
+                        fontSize: 20,
+                        color: '#c4e321'
+                    },
+                    name:'Returning Visitors',
+                    type:'line',
+                    smooth:true,
+                    itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                    data: [ 2668, 7685, 1064, 1292, 144, 1760, 1156, 8008.5, 1425.2, 14454.50, 14476.0, 14635.6, 1448.5]
+                },
+
+                {
+                    textStyle: {
+
+                        fontSize: 20,
+                        color: '#6bcccc'
+                    },
+                    name:'Unique Visitors',
+                    type:'line',
+                    smooth:true,
+                    itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                    data: [5232.6, 5565.4, 629.9, 787.5, 9176.4, 1999.2, 1784.0, 5678.0, 1289.2, 1484.0, 116.0, 11.6, 168.5]
+                }
+            ]
+        };
+
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    })
+
+    window.addEventListener("resize", function () {
+        myChart.resize();
+
+    });
+
+    // window.onresize = myChart.resize;//方法二
+</script>
+
+
+
+

@@ -1,0 +1,76 @@
+.inputBox{
+  background: #edecec;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+
+}
+.BasicFormBox,.HorizontalFormBox{
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding-left:1%;
+  padding-right:1%;
+  padding-bottom: 2%;
+  h4{
+    padding-top: 30px;
+
+    color:#1b93e1;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    margin-bottom: 21px;
+  }
+  form{
+    color:#333333;
+    font-size: 16px;
+    width: 100%;
+    input{
+      width: 100%;
+      color: #999999;
+      font-size: 14px;
+      border:1px solid #dddddd;
+      line-height: 32px;
+      margin-bottom: 18px;
+      margin-top: 12px;
+      text-indent: 10px;
+    }
+    input:nth-of-type(3){
+      line-height: 0px;
+      width: 2%;
+    }
+  }
+  p{
+    font-size: 16px;
+    width: 84px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    &:hover{
+      background:red ;
+      color: #ffffff;
+    }
+  }
+}
+.HorizontalFormBox{
+  form{
+   text-align: right;
+    input{
+      width: 80%;
+    }
+    input:nth-of-type(3){
+      line-height: 0px;
+    }
+  }
+  p{
+
+    font-size: 16px;
+    margin-left: 21%;
+  }
+  laber{
+    margin-right:10px;
+  }
+  laber:nth-of-type(3){
+    margin-right:68%;
+  }
+
+}

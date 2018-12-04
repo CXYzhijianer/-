@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<style type="text/css">
+    body{
+        background: #030a36;
+        /*height: 100%;*/
+    /*overflow: hidden;*/
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+    }
+    header{
+        width: 1300px;
+        height: 80px;
+        margin:0 auto;
+        float: left;
+    }
+    h5{
+        line-height: 80px;
+        text-align: center;
+        color:#fff;
+        font-size: 28px;
+        float: left;
+
+    }
+    .bg1{
+        width: 400px;
+        height: 80px;
+        background: url("img/d_bg2.png") no-repeat;
+        background-size: 100%;
+        float: left;
+
+    }
+    .bg2{
+        width: 400px;
+        height: 80px;
+
+        background: url("img/d_bg1.png") no-repeat;
+        background-size: 100%;
+    }
+    section{
+        display: -webkit-flex;
+        margin:  0 auto;
+        width: 1300px;
+
+        overflow: hidden;
+
+    }
+    .chart_left,.chart_right{
+        width: 330px;
+    }
+    .chart_left,.chart_right div{
+        margin-bottom: 12px;
+        border: 2px solid #13305f;
+    }
+    #mapBox{
+        width: 780px;
+        height: 600px;
+    }
+    #chart_left{
+        padding-left:12px;
+        text-align: center;
+    }
+    #chart_left div{
+        margin-bottom: 12px;
+        border: 2px solid #13305f;
+    }
+    #clart_1,#clart_2,#clart_3,#clart_4{
+        margin-bottom: 1px;
+        border: 0;
+    }
+    #clart_3,#clart_4{
+        margin-bottom: 0px;
+        border: 0;
+    }
+    #clart_1,#clart_3{
+        margin-right: 26px;
+    }
+    #map{
+        height: 600px;
+        /*width: 200%;*/
+        background: #acc;
+        overflow: hidden;
+        width: 1300px;
+        clear: both;
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="bg1"></div>
+        <h5>BODS 大数据公共服务平台</h5>
+        <div class="bg2"></div>
+
+    </header>
+
+    <section>
+        <div class="chart_left"id="chart_left">
+            <div id="chart1" style="width: 330px;height: 250px; border: 2px solid #13305f;"></div>
+            <div id="chart2"  style="width: 330px;height: 250px; border: 2px solid #13305f;"></div>
+            <div id="chart3"  style="width: 330px;height: 250px;">
+                <div id="clart_1" style="width: 145px;height: 110px;float:left"></div>
+                <div id="clart_2" style="width: 145px;height: 110px;float:left"></div>
+                <div id="clart_3" style="width: 145px;height: 110px;float:left"></div>
+                <div id="clart_4" style="width: 145px;height: 110px;float:left"></div>
+
+            </div>
+
+        </div>
+        <div id="mapBox"></div>
+        <div class="chart_right">
+            <div id="chart4" style="width: 330px;height: 250px;"></div>
+            <div id="chart5"  style="width: 330px;height: 250px;"></div>
+            <div id="chart6" style="width: 330px;height: 250px;"></div>
+        </div>
+
+
+    </section>
+    <div id="map"></div>
+
+    <!--<div id="map2"></div>-->
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/echarts.min.js" ></script>
+<script type="text/javascript" src="js/china.js" ></script>
+<script type="text/javascript" src="js/china.json.js" ></script>
+<script type="text/javascript" src="js/bigData.js" ></script>
+
+<script>
+
+</script>

@@ -1,0 +1,59 @@
+.inputBox {
+  background: #edecec;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.BasicFormBox, .HorizontalFormBox {
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%; }
+  .BasicFormBox h4, .HorizontalFormBox h4 {
+    padding-top: 30px;
+    color: #1b93e1;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    margin-bottom: 21px; }
+  .BasicFormBox form, .HorizontalFormBox form {
+    color: #333333;
+    font-size: 16px;
+    width: 100%; }
+    .BasicFormBox form input, .HorizontalFormBox form input {
+      width: 100%;
+      color: #999999;
+      font-size: 14px;
+      border: 1px solid #dddddd;
+      line-height: 32px;
+      margin-bottom: 18px;
+      margin-top: 12px;
+      text-indent: 10px; }
+    .BasicFormBox form input:nth-of-type(3), .HorizontalFormBox form input:nth-of-type(3) {
+      line-height: 0px;
+      width: 2%; }
+  .BasicFormBox p, .HorizontalFormBox p {
+    font-size: 16px;
+    width: 84px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px; }
+    .BasicFormBox p:hover, .HorizontalFormBox p:hover {
+      background: red;
+      color: #ffffff; }
+
+.HorizontalFormBox form {
+  text-align: right; }
+  .HorizontalFormBox form input {
+    width: 80%; }
+  .HorizontalFormBox form input:nth-of-type(3) {
+    line-height: 0px; }
+.HorizontalFormBox p {
+  font-size: 16px;
+  margin-left: 21%; }
+.HorizontalFormBox laber {
+  margin-right: 10px; }
+.HorizontalFormBox laber:nth-of-type(3) {
+  margin-right: 68%; }
+
+/*# sourceMappingURL=input.css.map */

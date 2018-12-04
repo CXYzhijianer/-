@@ -1,0 +1,29 @@
+.lines_Box {
+  width: 100%;
+  display: -webkit-flex;
+  margin: 3% 3%;
+  margin-left: 0; }
+
+.Line_Chart {
+  -webkit-flex-shrink: 1;
+  margin-right: 3%;
+  margin-left: 3%; }
+
+#charts {
+  -webkit-flex-shrink: 1;
+  color: #f5753c;
+  font-size: 14px; }
+
+.points_box {
+  display: -webkit-flex; }
+
+.Bar_chart {
+  -webkit-flex-shrink: 1;
+  height: 432px;
+  width: 32%; }
+
+#Points_chart {
+  -webkit-flex-shrink: 1;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=charts.css.map */
